@@ -2,7 +2,9 @@
 
 /* Import Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=YourSelectedFont1:ital,wght@0,400;0,700;1,400&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Burned&display=swap');
 /* Define CSS variables based on your color scheme */
 :root {
   --primary-color: #3498db;
@@ -64,7 +66,112 @@ footer {
 
 footer p {
   font-size: 0.8em;
+  color: white;
+}
+
+/* Header styles using CSS Grid */
+header {
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav a:hover{
   color: var(--text-color);
 }
 
+header img {
+  max-width: 100px; /* Adjust as needed */
+}
+
+header nav {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #fff;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+/* Main Content styles */
+main {
+  padding: 20px;
+}
+
+/* History Section styles */
+.history-section{
+  margin-top: 30px;
+}
+.history-section h2{
+  font-family:'Pacifico', cursive;
+  font-size: xx-large;
+  font-weight: 900;
+}
+
+.history-two{
+  text-align: center;
+  color: var(--primary-color);
+}
+
+.history{
+  text-align: justify;
+}
+
+/* Adventures Section styles */
+
+.adventure-section h2{
+  font-family: 'Berkshire Swash', serif;
+  font-size: xx-large;
+}
+h2 {
+  text-align: center;
+  color: var(--primary-color);
+  margin-bottom: 20px;
+}
+
+figure {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+figcaption {
+  margin-top: 10px;
+  font-style: italic;
+  color: var(--text-color);
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  text-align: right;
+}
+
+.sociallinks {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.sociallinks a {
+  margin-left: 10px;
+}
+
+.sociallinks img {
+  max-width: 30px; /* Adjust as needed */
+}
+.home{
+  font-family: 'Rubik Burned', system-ui;
+}
 
