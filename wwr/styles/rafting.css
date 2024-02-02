@@ -104,6 +104,7 @@ main {
 }
 
 /* History Section styles */
+
 .history-section{
   margin-top: 30px;
 }
@@ -120,8 +121,7 @@ main {
 
 .history{
   text-align: justify;
-}
-
+}  
 /* Adventures Section styles */
 
 .adventure-section h2{
@@ -175,3 +175,81 @@ footer {
   font-family: 'Rubik Burned', system-ui;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+/* rafting.css */
+
+/* Apply styles to headings and paragraph elements */
+h1, h2, p {
+  font-family: 'ital', sans-serif;
+  color: var(--text-color);
+}
+
+/* Main Content styles */
+.main-content {
+  padding: 20px;
+}
+
+/* History Section styles */
+/* (Add your existing styles for the history section) */
+
+/* Adventures Section styles */
+/* (Add your existing styles for the adventure section) */
+
+/* Footer styles */
+/* (Add your existing styles for the footer) */
+
+/* Additional styles for the Contact Form Section */
+.contact-form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.contact-form h2 {
+  color: #0e4b7f;
+}
+
+.contact-form form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.contact-form label {
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.contact-form button {
+  background-color: #0e4b7f;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #09456b;
+}
