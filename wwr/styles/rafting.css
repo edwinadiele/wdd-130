@@ -128,6 +128,9 @@ main {
   font-family: 'Berkshire Swash', serif;
   font-size: xx-large;
 }
+.adventure{
+  color: var(--primary-color);
+}
 h2 {
   text-align: center;
   color: var(--primary-color);
@@ -199,16 +202,7 @@ h1, h2, p {
   padding: 20px;
 }
 
-/* History Section styles */
-/* (Add your existing styles for the history section) */
 
-/* Adventures Section styles */
-/* (Add your existing styles for the adventure section) */
-
-/* Footer styles */
-/* (Add your existing styles for the footer) */
-
-/* Additional styles for the Contact Form Section */
 .contact-form {
   background-color: #fff;
   padding: 20px;
@@ -216,7 +210,6 @@ h1, h2, p {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
 }
-
 .contact-form h2 {
   color: #0e4b7f;
 }
@@ -252,4 +245,7 @@ h1, h2, p {
 
 .contact-form button:hover {
   background-color: #09456b;
+}
+.home{
+  display: flex;
 }
